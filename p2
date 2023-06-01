@@ -1,0 +1,15 @@
+# Assignment: =
+age = 27
+first_name = "Anton"
+health = 100
+num_lives = 3
+# Arithmetic: 1 - * / % // **
+new_age = age + 1
+age = age + 1
+full_name = first_name + "Oxfeldt"
+# comparison: == != >= > <= <
+is_game_over = health <= 0
+print(is_game_over)
+# Logical: and or not
+is_game_over = health <= 0 and num_lives <= 0
+is_game_over = not is_game_over
